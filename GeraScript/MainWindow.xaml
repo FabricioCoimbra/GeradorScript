@@ -1,0 +1,17 @@
+﻿<Window x:Class="GeraScript.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GeraScript"
+        mc:Ignorable="d"
+        Title="Gerar Script" Height="250" Width="300">
+    <Grid>
+        <Label Content="Nome" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label Content="Tarefa" HorizontalAlignment="Left" Margin="10,64,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <TextBox x:Name="TxtNome" HorizontalAlignment="Left" Margin="10,41,0,0" Text="Fabricio" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="TxtTrf" HorizontalAlignment="Left" Margin="10,95,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Gerar Script" HorizontalAlignment="Left" Margin="10,118,0,0" VerticalAlignment="Top" Width="120" Click="Button_Click"/>
+
+    </Grid>
+</Window>
